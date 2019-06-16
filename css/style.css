@@ -1,0 +1,107 @@
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+
+html{
+  font-size: 100%;
+  background: url(../images/bdaybg.jpg) no-repeat center center fixed;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+/*font options: 
+font-family: 'Bad Script', cursive
+font-family: 'Chewy', cursive;
+*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1{
+	font-family: 'Chewy', cursive;
+	color: #FB718A;
+	text-align: center;
+	font-size: 3rem;
+	margin: 1rem 0 1rem 0;
+	
+}
+
+
+
+
+p{
+font-family: 'Bad Script', cursive;
+font-size: 1.5rem;	
+}
+
+
+/*-----------------------------------*/
+
+.container{
+  width: 600px;
+  margin: 100px auto;
+  background: none;
+
+
+}
+
+.intro{
+background: none;
+width: 100%;
+margin-bottom: 0;
+padding: 1rem;
+line-height: 50px;
+
+}
+
+aside.wine{
+float: right;
+
+}
+
+
+.sched{
+background: #FFF;
+width: 100%;
+background: #42988F;
+padding: 2rem;
+text-align: center;
+
+
+}
+
+.location{
+background: none;
+width: 100%;
+padding: 2rem;
+text-align: center;
+}
+
+.email{
+background: #F1DDBA;
+width: 100%;
+padding: 2rem;
+text-align: center;
+}
+
+
+/*pics*/
+
+.bubblemanpix{
+width: 100%;
+  border-radius: 20px 20px 0 0;
+  box-sizing: 0;
+}
+
+aside.bubblepartypic{
+	float: right;
+}
+
+aside.wine{
+	float: right;
+}
